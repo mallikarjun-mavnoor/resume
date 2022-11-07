@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------ Element Selector ------------------ */
+
+#mypic {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.profile {
+  color: #43454b;
+}
+
+.profile p {
+  text-transform: uppercase;
+  font-family: montserrat;
+  font-weight: 500;
+  color: rgb(114, 113, 113);
+  font-size: 15px;
+}
+
+.profile h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+body {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  width: 80%;
+  margin: 50px auto;
+  position: relative;
+  display: flex;
+  font-family: poppins;
+  padding: 20px 10px;
+  box-shadow: 10px 10px 20px lightgrey;
+}
+
+.part1 {
+  width: 35%;
+  text-align: center;
+  padding: 15px;
+}
+
+.info {
+  box-sizing: border-box;
+  background-color: #def5e5;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.info div p {
+  text-align: left;
+  margin-left: 3rem;
+  padding: 5px 0;
+}
+
+.info div h2 {
+  padding: 5px;
+  margin: 10px;
+  background-color: #43454b;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: larger;
+  width: 50%;
+  margin: 20px auto;
+  font-weight: 500;
+}
+
+.skillcontainer {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.skills {
+  margin-top: 20px;
+}
+
+.info p img,
+.headings h2 img {
+  width: 18px;
+  margin: 0 10px;
+  padding-top: 10px;
+  opacity: 0.8;
+}
+
+/* ----------------------- Part 2 ----------------------- */
+
+.part2 {
+  width: 65%;
+  padding: 15px 25px;
+}
+
+.headings h2 {
+  border-bottom: 5px solid #def5e5;
+}
+
+.headings p {
+  padding: 10px 0;
+}
+
+small {
+  font-weight: 400;
+  font-size: small;
+}
+
+.projects p {
+  margin: auto;
+  padding: 7px;
+}
+
+h2 {
+  margin: 15px 0;
+}
+
+#abc {
+  padding: 10px;
+}
+
+.padding {
+  padding: 15px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
