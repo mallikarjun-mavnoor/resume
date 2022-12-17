@@ -30,19 +30,22 @@
 body {
   border: 1px solid lightgrey;
   border-radius: 10px;
-  width: 80%;
+  width: 90%;
   margin: 50px auto;
   position: relative;
   display: flex;
   font-family: poppins;
   padding: 20px 10px;
-  box-shadow: 10px 10px 20px lightgrey;
+  box-shadow: 10px 10px 20px rgba(113, 168, 161, 0.623);
+  max-width: 1050px;
+
+
 }
 
 .part1 {
-  width: 35%;
   text-align: center;
   padding: 15px;
+  min-width: 300px;
 }
 
 .info {
@@ -51,11 +54,12 @@ body {
   border-radius: 10px;
   margin-top: 30px;
   padding: 10px;
+
 }
 
 .info div p {
   text-align: left;
-  margin-left: 3rem;
+  margin-left: 2rem;
   padding: 5px 0;
 }
 
@@ -93,7 +97,7 @@ body {
 /* ----------------------- Part 2 ----------------------- */
 
 .part2 {
-  width: 65%;
+  width: auto;
   padding: 15px 25px;
 }
 
@@ -130,4 +134,19 @@ h2 {
 a {
   text-decoration: none;
   color: black;
+}
+
+@media (max-width:670px) {
+  body {
+    flex-direction: column;
+  }
+
+  .part1 {
+    padding: 5px;
+  }
+
+  .part2 P {
+    margin: 0;
+    padding: 0;
+  }
 }
